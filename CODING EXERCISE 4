@@ -1,0 +1,29 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class Exercise4 {
+
+	public static boolean contains(int[] arr, int item) {
+		// TODO Auto-generated method stub
+		// Write a Java program to test if an array contains a specific value. 
+		Scanner input = new Scanner (System.in);
+		
+		for (int n : arr) {
+	         if (item == n) {
+	            return true;
+	         }
+	      }
+	      return false;
+	   }
+	   public static void main(String[] args) {
+	          int[] array = {
+	            1789, 2035, 1899, 1456, 2013, 
+	            1458, 2458, 1254, 1472, 2365, 
+	            1456, 2265, 1457, 2456};
+	      System.out.println(contains(array, 2013));
+	      System.out.println(contains(array, 2015));
+
+	}
+
+}
