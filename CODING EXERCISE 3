@@ -1,0 +1,21 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Write a Java program to calculate the average value of array elements. 
+		
+		int[] numbers = new int[]{40, 39, 75, 95, -16, 60, -100};
+	       int sum = 0;
+	       for(int i=0; i < numbers.length ; i++)
+	        sum = sum + numbers[i];
+	        double average = sum / numbers.length;
+	        System.out.println("Average value of the array elements is : " + average); 
+
+	}
+
+}
