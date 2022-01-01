@@ -1,0 +1,28 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to sort a numeric array and a string array.
+		
+		Scanner input = new Scanner (System.in);
+		
+		int [][]a = new int[20][20];    
+		 for(int i = 0; i < 20; i++)
+		   {
+		      for(int j = 0; j < 20; j++)
+		      {
+		         System.out.printf("%2d ", a[i][j]);
+		      }
+		      System.out.println();
+		   }
+		
+		
+		
+
+	}
+
+}
