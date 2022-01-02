@@ -1,0 +1,34 @@
+package selfprogramming;
+
+import java.util.Arrays;
+
+// Sort a numeric array and a string array
+
+public class Exercise13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] firstarray = {
+	            1789, 2035, 1899, 1456, 2013, 
+	            1458, 2458, 1254, 1472, 2365, 
+	            1456, 2165, 1457, 2456};
+	            
+	    String[] secarray = {
+	            "Java",
+				
+	            "Python",
+	            "PHP",
+	            "C#",
+	            "C Programming",
+	            "C++"
+	        };        
+	    System.out.println("UNDER DATE : "+Arrays.toString(firstarray));
+	    Arrays.sort(firstarray);
+	    System.out.println("SELECTED DATE: "+Arrays.toString(firstarray));
+	    
+	    System.out.println("Original CODING : "+Arrays.toString(secarray));
+	    Arrays.sort(secarray);
+	    System.out.println("Sorted CODING : "+Arrays.toString(secarray));
+	    }
+	}
